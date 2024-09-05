@@ -4,6 +4,7 @@ import Info from './components/Info'
 import Showcase from './components/Showcase'
 import Footer from './components/Footer'
 import Features from './components/Features'
+import Plans from './components/Plans'
 
 export default function Homepage() {
   return (
@@ -17,6 +18,7 @@ export default function Homepage() {
             </div>
             
             <div className="w-full h-screen bg-[rgb(10,10,10)]">
+              <Plans />
               <Features />
               <Info />
               <Footer />
